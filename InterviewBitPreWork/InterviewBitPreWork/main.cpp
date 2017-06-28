@@ -21,6 +21,9 @@ class Solution {
     // checkpoint 2
     vector<vector<int> > prettyPrint(int A);
     
+    // checkpoint 3
+    int numRange(vector<int> &A, int B, int C);
+    
     // checkpoint 4
     ListNode* subtract(ListNode* A);
     
@@ -61,6 +64,29 @@ vector<vector<int> > Solution::prettyPrint(int A) {
         current--;
     }
     return result;
+}
+
+// MARK: - checkpoint 3
+int Solution::numRange(vector<int> &A, int B, int C) {
+    
+    int countInRange = 0;
+    
+    int sum = 0;
+    for (int ix = 0; ix < A.size(); ix++) {
+        sum = A[ix];
+        if (sum >= B && sum <= C) {
+            countInRange += 1;
+        }
+        for (int jx = ix + 1; jx < A.size(); jx++) {
+            sum += A[jx];
+            if (sum >= B && sum <= C) {
+                countInRange += 1;
+            }
+            if (sum > C) { break; }
+        }
+    }
+    
+    return countInRange;
 }
 
 // MARK: - checkpoint 4
