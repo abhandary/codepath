@@ -157,7 +157,7 @@ void permuteHelper(vector<int>& input, vector<bool>& used, vector<int> partial, 
     
     for (int ix = 0; ix < input.size(); ix++) {
         if (used[ix] == true) { continue; }
-        if (ix > 0 && input[ix] == input[ix - 1] && !used[ix - 1]) { continue; }
+        if (ix > 0 && input[ix] == input[ix - 1] && used[ix - 1]) { continue; }
         
         partial.push_back(input[ix]);
         used[ix] = true;
