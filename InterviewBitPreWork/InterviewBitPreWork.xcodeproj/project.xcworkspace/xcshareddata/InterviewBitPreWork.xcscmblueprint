@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8EE910D9423564389A854F29E0546F8D611D86FD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "162E1497FA9384901A3131EC5679AB398962F5F2" : 9223372036854775807,
+    "8EE910D9423564389A854F29E0546F8D611D86FD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D7C1056D-53A1-4996-B2ED-0297D309C0D8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "162E1497FA9384901A3131EC5679AB398962F5F2" : "",
+    "8EE910D9423564389A854F29E0546F8D611D86FD" : "codepath\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "InterviewBitPreWork",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "InterviewBitPreWork\/InterviewBitPreWork.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SocialLocationReminder\/GoTeam.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "162E1497FA9384901A3131EC5679AB398962F5F2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:abhandary\/codepath.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8EE910D9423564389A854F29E0546F8D611D86FD"
+    }
+  ]
+}
