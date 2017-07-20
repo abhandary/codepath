@@ -37,6 +37,9 @@ class Week1 {
     // Palindrome String
     int isPalindrome(string A);
     
+    // --- Merge Intervals --
+    vector<Interval> insert(vector<Interval> &intervals, Interval newInterval);
+    
     
     // Longest Common Prefix
     string longestCommonPrefix(vector<string> &A);
@@ -184,6 +187,8 @@ vector<int> Week1::spiralOrder(const vector<vector<int> > &A) {
     return result;
     
 }
+
+
 
 #pragma mark - Strings
 

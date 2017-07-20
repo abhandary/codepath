@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E2DCE6461F037330008B6FE1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2DCE6451F037330008B6FE1 /* main.cpp */; };
 		E2DCE64E1F173B2F008B6FE1 /* week1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2DCE64C1F173B2F008B6FE1 /* week1.cpp */; };
+		E2DCE6511F20B318008B6FE1 /* week1_post.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2DCE64F1F20B318008B6FE1 /* week1_post.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		E2DCE6451F037330008B6FE1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E2DCE64C1F173B2F008B6FE1 /* week1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = week1.cpp; sourceTree = "<group>"; };
 		E2DCE64D1F173B2F008B6FE1 /* week1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = week1.hpp; sourceTree = "<group>"; };
+		E2DCE64F1F20B318008B6FE1 /* week1_post.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = week1_post.cpp; sourceTree = "<group>"; };
+		E2DCE6501F20B318008B6FE1 /* week1_post.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = week1_post.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				E2DCE6451F037330008B6FE1 /* main.cpp */,
 				E2DCE64C1F173B2F008B6FE1 /* week1.cpp */,
 				E2DCE64D1F173B2F008B6FE1 /* week1.hpp */,
+				E2DCE64F1F20B318008B6FE1 /* week1_post.cpp */,
+				E2DCE6501F20B318008B6FE1 /* week1_post.hpp */,
 			);
 			path = InterviewBitPreWork;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DCE6511F20B318008B6FE1 /* week1_post.cpp in Sources */,
 				E2DCE6461F037330008B6FE1 /* main.cpp in Sources */,
 				E2DCE64E1F173B2F008B6FE1 /* week1.cpp in Sources */,
 			);
